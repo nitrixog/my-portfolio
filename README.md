@@ -2,7 +2,7 @@
 
 ![Screenshot](https://files.catbox.moe/4fg8du.png)
 
-A clean & animated developer portfolio template built with **Next.js** and **Tailwind CSS**.  
+A clean & animated developer portfolio template built with **Next.js** and **Tailwind CSS**.
 Designed for any developer who wants a simple starting base with **ShadCN** and **MagicUI** compoonents in a minimalistic portfolio.
 
 ## Features
