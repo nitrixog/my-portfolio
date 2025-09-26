@@ -21,7 +21,7 @@ type GitHubAPIRepo = {
   name: string;
   description: string | null;
   html_url: string;
-  topics: string[];
+  language: string[];
   stargazers_count: number;
 };
 
@@ -58,7 +58,7 @@ useEffect(() => {
         title: repo.name,
         description: repo.description,
         url: repo.html_url,
-        tech: repo.topics.length ? repo.topics : ["Write-up"],
+        tech: repo.language || "Write-up",
         stars: repo.stargazers_count,
       }));
 
